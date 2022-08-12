@@ -1,0 +1,122 @@
+/* ***************** */
+/* NAVIGATION BAR */
+/* ***************** */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  background-color: #fff;
+  padding: 8px 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar-logo,
+.nav-link {
+  display: inline-block;
+  letter-spacing: 4px;
+  padding: 8px 16px;
+}
+
+.navbar-logo:hover,
+.nav-link:hover {
+  background-color: #ccc;
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+/* ***************** */
+/* HEADER */
+/* ***************** */
+.header {
+  position: relative;
+}
+
+.header-img {
+  width: 100%;
+}
+
+/* ***************** */
+/* PROJECTS */
+/* ***************** */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 0 16px 8px 16px;
+}
+
+.project-item {
+  position: relative;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.under {
+  padding-bottom: 8px;
+}
+
+.project-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-color: #000;
+  color: #fff;
+  padding: 8px 16px;
+}
+
+/* ***************** */
+/* ABOUT */
+/* ***************** */
+.about-content {
+  margin: 15px 0;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 0 16px 8px 16px;
+}
+
+.about-img {
+  width: 100%;
+}
+
+.heding-name {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.about-job {
+  margin: 15px 0;
+  opacity: 0.60;
+}
+
+.about-profile {
+  margin: 15px 0;
+}
+
+.ab-item {
+  display: inline-block;
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 8px 16px;
+}
+
+.ab-link {
+  display: inline-block;
+  letter-spacing: 4px;
+  padding: 8px 16px;
+}
